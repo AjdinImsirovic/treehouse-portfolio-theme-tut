@@ -1,0 +1,6 @@
+S1 contents
+[V1] WordPress Theme Development Course Overview
+[V2] Where WordPress Themes Live
+[V3] The WordPress  Template Hierarchy
+[V4] Setting Up A WordPress Theme Folder
+[V5] Activating a WordPress Theme
