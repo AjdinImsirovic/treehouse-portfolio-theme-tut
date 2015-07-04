@@ -4,9 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php wp_title(); ?></title>
-    <link rel="stylesheet" href="assets/css/foundation.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <script src="assets/js/vendor/modernizr.js"></script>
+    <?php wp_head(); ?>
   </head>
 
   <body>
