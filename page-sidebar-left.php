@@ -20,12 +20,12 @@
                     <?php endif; ?>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- Secondary Column -->
-    <div class="small-12 medium-4 medium-pull-8 columns">
-        <div class="secondary">
-            <div class="module-heading">Sidebar</h2>
+            <!-- Secondary Column -->
+            <div class="small-12 medium-4 medium-pull-8 columns">
+                <div class="secondary">
+                    <div class="module-heading">Sidebar</h2>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
