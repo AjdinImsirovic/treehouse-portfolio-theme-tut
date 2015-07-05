@@ -4,3 +4,7 @@ S1 contents
 [V3] The WordPress  Template Hierarchy
 [V4] Setting Up A WordPress Theme Folder
 [V5] Activating a WordPress Theme
+
+S5 contents
+[V1] The page.php file
+[V2] Creating Custom Page Templates in WordPress
