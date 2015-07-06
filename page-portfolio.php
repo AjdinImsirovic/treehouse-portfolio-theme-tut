@@ -26,7 +26,7 @@
 <?php
 
 $args = array(
-    'post_type' = 'portfolio'
+    'post_type' => 'portfolio'
 );
 $query = new WP_Query( $args );
 
