@@ -11,6 +11,7 @@ function register_theme_menus() {
         )
     );
 }
+add_action( 'init', 'register_theme_menus' );
 
 function wpt_theme_styles() {
     wp_enqueue_style( 'foundation_css', get_template_directory_uri() . '/css/foundation.css' ); 
