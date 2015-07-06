@@ -1,5 +1,3 @@
-<?php /* Template Name: Left Sidebar */ ?>
-
 <?php get_header() ?>
 
 <section class="two-column row no-max pad">
