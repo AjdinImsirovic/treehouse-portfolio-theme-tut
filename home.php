@@ -21,7 +21,7 @@
                                 </a>
                             </li>
                             <li class="cat">in
-                                <?php the_category(); ?>
+                                <?php the_category( ', ' ); ?>
                             </li>
                             <li class="cat">on
                                 <?php the_date(); ?>
