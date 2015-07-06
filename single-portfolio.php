@@ -17,7 +17,15 @@
                 <div class="secondary">
                     
                         <h1><?php the_title(); ?></h1>
-                        <?php the_field('description'); ?>
+                        <p><?php the_field('description'); ?></p>
+                        
+                        <hr>
+                        
+                        <p>
+                            <?php previous_post_link(); ?>
+                            <a href="<?php bloginfo('url'); ?>/portfolio">Back to portfolio</a>
+                            <?php next_post_link(); ?>
+                        </p>
                         
                 </div>
             </div>
