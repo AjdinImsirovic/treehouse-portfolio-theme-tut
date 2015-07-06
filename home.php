@@ -24,7 +24,7 @@
                                 <?php the_category( ', ' ); ?>
                             </li>
                             <li class="cat">on
-                                <?php the_date(); ?>
+                                <?php the_time( 'F j, Y' ); ?>
                             </li>
                         </ul>
                         <?php if( get_the_post_thumbnail() ) : ?>
