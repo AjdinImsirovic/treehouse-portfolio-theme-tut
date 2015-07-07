@@ -17,7 +17,7 @@
 
                         <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
                         <?php the_content(); ?>
-                        <?php the comments_tempate(); ?>
+                        <?php the comments_template(); ?>
                         <ul class="post-meta no-bullet">
                             <li class="author">
 
