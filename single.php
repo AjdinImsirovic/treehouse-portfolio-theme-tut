@@ -12,13 +12,12 @@
                         <?php if( get_the_post_thumbnail() ) : ?>
                         <div class="img-container">
                             <?php the_post_thumbnail( 'large'); ?>
-                            <p>Photo by Gratt Spore</p>
                         </div>
                         <?php endif; ?>
 
                         <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
                         <?php the_content(); ?>
-                        
+                        <?php the comments_tempate(); ?>
                         <ul class="post-meta no-bullet">
                             <li class="author">
 
