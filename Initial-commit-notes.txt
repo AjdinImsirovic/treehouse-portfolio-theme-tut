@@ -8,3 +8,49 @@ S1 contents
 S5 contents
 [V1] The page.php file
 [V2] Creating Custom Page Templates in WordPress
+
+FINAL VIDEO NOTES
+
+Add shortcodes - no changes in code
+
+(1) foundation shortcodes "Easy Foundation Shortcode" plugin
+(2) if you use shortcodes in your content and later change your theme,
+the shortcodes won't work anymore
+
+Testing Your WP Theme
+(1) Click through everything, forms, links, titles
+(2) wp_title() won't display anything on the homepage
+(3) add bloginfo( 'name' ) to header.php
+(4) add more params to wp_title, like adding a pipe char separator
+(5) also, test your site with debug mode on, it's useful during developmnt
+(6) open up main WP install >> wp-config.php >> scroll down to WP_DEBUG
+(7) turn it on to true, and see what happens
+(8) turn it off in production environment
+(9) codex.wordpress.org/Theme_Development_Checklist
+(10) codex.wordpress.org/Theme_Development
+(11) codex.wordpress.org/Theme_Unit_Test
+(12) codex.wordpress.org/Theme_Review
+(13) styles for WordPress-generated css
+(14) Theme-Check plugin
+(15) an easy way to solve the styles problem in our themes is to copy them
+from a default theme's style.css
+(16) Text domain problems = text domain, what it is doing is, it's saying 
+display the following text, but what the error is complaining about, is
+it's asking for a second parameter that defines what this text is so that
+we can create a language file.
+(17) So all we need to do to fix this is go to LN39 single.php, for example,
+and pass in a unique param here, say 'treehouse-portfolio', and now it's fixed
+(18) But we still have the same issue in page.php, so copy paste it there too,
+and it's fixed; same in index.php; functions.php; 
+(19) Now it's complaining about not having comments.php
+(20) flexible-width and fixed-with no longer apply, we need to use fluid-layout and
+fixed-layout; to to style.css theme comment up top and change it in tags
+(21) pagination in home.php
+(22) post_class(), add it to the element that contains our posts, similar to 
+body_class, it'll give us id="post-4564" categories etc. 
+(23) so let's come back into our home.php, and find <article class="post">
+(24) change it to <article <?php post_class('post'); ?>>, we're passing it the
+param of 'post' which will make sure that it adds that, it adds post as a class.
+(25) So use theme-check plugin as a learning tool, you may find that you know 
+nothing about a particular error
+(27) http://generatewp.com/ - very good
